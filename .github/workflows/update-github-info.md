@@ -17,6 +17,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   edit: true
   web-fetch: {}
@@ -38,8 +39,9 @@ Review the repository's editorial guidance and current GitHub news, then propose
 3. Use web fetch to read:
    - https://github.blog/latest/
    - https://github.blog/changelog/
-4. Compare the fetched news with the current page. Identify only accurate, practical updates that help developers learn GitHub faster.
-5. Keep summaries short, concise, and in Mona's editorial voice. Mention the GitHub Blog or GitHub Changelog source for any new information.
+   - https://awesome-copilot.github.com/workflows/
+4. Compare these sources with the current page. Identify only accurate, practical updates that help developers learn GitHub faster, including relevant Awesome Copilot workflows.
+5. Keep summaries short, concise, and in Mona's editorial voice. Cite the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows page for each new item.
 6. Update only `site/content/github-info.md`. Preserve its existing structure unless a clear new section or theme is justified.
 7. Use `create-pull-request` to open a pull request for Mona to review. Set a concise title and explain which sources informed the change. Do not write directly to `main`.
 
