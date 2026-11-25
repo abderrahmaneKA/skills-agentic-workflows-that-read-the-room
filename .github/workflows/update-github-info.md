@@ -8,7 +8,6 @@ on:
 permissions:
   contents: read
   pull-requests: read
-  copilot-requests: write
 strict: true
 engine:
   id: copilot
