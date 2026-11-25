@@ -12,7 +12,6 @@ strict: true
 engine:
   id: copilot
   copilot-sdk: true
-  model: gpt-5-mini
 network:
   allowed:
     - github.blog
