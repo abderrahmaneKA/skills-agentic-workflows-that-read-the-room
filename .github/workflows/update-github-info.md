@@ -46,3 +46,4 @@ Review the repository's editorial guidance and current GitHub news, then propose
 7. Use `create-pull-request` to open a pull request for Mona to review. Set a concise title and explain which sources informed the change. Do not write directly to `main`.
 
 Call `noop` with a brief reason when no material update is found, the sources are unavailable or insufficient, or the proposed change would duplicate existing content.
+rely on `safe-outputs` with `create-pull-request`.
